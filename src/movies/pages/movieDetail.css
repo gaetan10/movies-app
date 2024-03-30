@@ -1,0 +1,44 @@
+/* MovieDetail.css */
+
+.movie-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex; /* Use flexbox to arrange items */
+    align-items: center; /* Center align items vertically */
+    justify-content: space-between; /* Add space between items */
+  }
+  
+  .movie-detail-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .movie-detail-image {
+    max-width: 40%; /* Adjust the width of the image */
+  }
+  
+  .movie-detail-image img {
+    width: 100%; /* Ensure the image fills its container */
+    height: auto;
+  }
+  
+  .movie-detail-content {
+    max-width: 50%; /* Adjust the width of the content */
+  }
+  
+  .movie-detail-description {
+    margin-bottom: 20px;
+    text-align: left; /* Align the description text to the left */
+  }
+  
+  .movie-detail-buttons {
+    display: flex;
+    justify-content: space-evenly; /* Align buttons to the right */
+  }
+  
+  .movie-detail-button {
+    margin-left: 20px; /* Add space between buttons */
+  }
+  
